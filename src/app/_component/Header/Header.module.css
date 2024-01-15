@@ -1,6 +1,7 @@
 .wrapper {
   width: 100dvw;
   display: flex;
+  padding: 0 10px;
   justify-content: center;
 }
 
