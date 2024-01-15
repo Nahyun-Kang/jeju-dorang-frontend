@@ -1,0 +1,42 @@
+.wrapper {
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: inherit;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav_container {
+  display: flex;
+  margin-bottom: 12px;
+  margin-left: 80px;
+  color: #696969;
+  font-weight: 600;
+  font-size: 1rem;
+  gap: 50px;
+  cursor: pointer;
+}
+
+.right_container {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #1470fd;
+  cursor: pointer;
+}
+
+.right_container .logout {
+  color: #696969;
+}
