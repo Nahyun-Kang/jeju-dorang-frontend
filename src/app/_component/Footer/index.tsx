@@ -36,7 +36,7 @@ export default function Footer() {
             <br />
             관광불편신고: 제주안내 120콜센터(국번없이120번)
           </p>
-          <div>
+          <div className={styles.logos_wrapper}>
             <Image src={visitJeju} alt="VISIT JEJU  로고"></Image>
             <Image src={jejuTripLogo} alt="제주관광공사 로고"></Image>
             <Image src={jejuLogo} alt="제주CI"></Image>
